@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daam - دعم</title>
+    <link rel="icon" href="icon.png">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        #en{
+            background-color: aqua;
+            border-radius: 100%;
+            padding: 10px;
+            border: none;
+        }
+        #ar{
+            background-color: rebeccapurple;
+            border-radius: 100%;
+            padding: 10px;
+            border: none;
+        }
+        #gr{
+            background-color: darkgoldenrod;
+            border-radius: 100%;
+            padding: 10px;
+            border: none;
+        }
+        button:hover{
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color: blueviolet;">Choose your language</h1>
+    <br>
+    <button id="en" onclick="en()">
+        English
+    </button>
+    <br>
+    <br>
+    <button id="ar" onclick="ar()">
+        عربي
+    </button>
+    <br>
+    <br>
+    <button id="gr" onclick="gr()">
+        Deutsch
+    </button>
+    <script>
+        function en(){
+            window.location.href="index1.html"
+        }
+        function ar(){
+            window.location.href="index2.html"
+        }
+        function gr(){
+            window.location.href="index3.html"
+        }
+    </script>
+</body>
+</html>

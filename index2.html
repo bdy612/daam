@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daam</title>
+    <link rel="icon" href="icon.png">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-transform: capitalize;
+        }
+        #israil{
+            overflow: auto;
+            height: 200px;
+            width: 400px;
+            border: red solid 2px;
+            margin: auto;
+        }
+        #palastine{
+            overflow: auto;
+            height: 200px;
+            width: 400px;
+            border: red solid 2px;
+            margin: auto;
+        }
+        h1, p{
+            color: #5ad;
+            text-align: center;
+        }
+        img{
+            display: block;
+            margin: auto;
+        } 
+        #m1{
+            margin-top: 20px;
+        }
+        #d1{
+            background-color: #345fda45;
+            text-align: center;
+        }
+        a{
+            text-decoration: none;
+            color: #4ae;
+            text-align: center;
+            display: block;
+        }
+        #red{
+            display: inline;
+        }
+        a:hover{
+            text-decoration: underline;
+            color: #aaa;
+        }
+        p:hover{
+           color: #d34e12a4; 
+        }
+        h1:hover{
+           color: #d34e12a4; 
+        }
+        img:hover{
+            transform: scale(0.9);
+        }
+        .why{
+            margin-left: 100px;
+            margin-right: 100px;
+        }
+        span{
+            background-color: #390229;
+        }
+        #but{
+            display: inline-block;
+            border: none;
+            background-color: #390229;
+            color: red;
+        }
+        #i1{
+            position: fixed;
+            top: auto;
+            left: auto;
+        }
+        #i2{
+            position: fixed;
+            top: auto;
+            left: auto;
+        }
+    </style>
+</head>
+<body>
+        <div id="d1"><img src="icon.png" alt="Daam" height="70px" width="70px">
+        <p>هذا موقع لمعرفة من يساعد من</p>
+    <p>إذا كنت بحاجة إلى لغة أخرى انقر <a id="red" href="index.html">هنا</a></p><br>
+    <br>
+    <button id="but" onclick="pri()">أذا أردت <u>مطبعة</u> انقر هنا</button></div>
+    <div id="m1"></div>
+    <section id="israil">
+        <h1 id="i1">الشركات التي تساعد إسرائيل...</h1>
+        <hr>
+        <div id="always">
+            <img src="Always.png" alt="always" height="100px" width="200px">
+            <br>
+            <a target="_blank" href="https://www.always.com/en-us">دائماً</a>
+        </div>
+        <hr>
+        <div id="amazon">
+            <img src="amavon.png" alt="amazon" height="100px" width="100px">
+            <br>
+            <a target="_blank" href="https://www.amazon.com/">أمازون</a>
+        </div>
+        <hr>
+        <div id="americana">
+            <img src="Amrecana.png" alt="american" height="100px" width="200px">
+            <br>
+            <a target="_blank" href="https://www.americanafoods.com/">أمريكانا</a>
+        </div>
+        <hr>
+        <div id="apple">
+            <img src="apple.png" alt="apple" height="100px" width="100px">
+            <br>
+            <a target="_blank" href="https://www.apple.com/sa/">تفاحة</a>
+        </div>
+        <hr>
+        <div id="ariel">
+            <img src="Ariel.png" alt="ariel" height="100px" width="100px">
+            <br>
+            <a target="_blank" href="https://www.arielarabia.com/en">ارييل</a>
+        </div>
+        <hr>
+        <div id="american eagle">
+            <img src="download.png" alt="american eagle" height="100px" width="200px">
+            <br>
+            <a target="_blank" href="https://www.americaneagle.com.sa/en/">النسر الامريكي</a>
+        </div>
+        <hr>
+        <div id="banbie">
+            <img src="babie.png" alt="banbie" height="100px" width="200px">
+            <br>
+            <a target="_blank" href="https://shop.mattel.com/pages/barbie">باربي</a>
+        </div>
+        <hr>
+        <div id="boss">
+            <img src="boss.png" alt="boss" height="100px" width="150px">
+            <br>
+            <a target="_blank" href="https://www.hugoboss.com/sa/en/home">هوغو بوس</a>
+        </div>
+        <hr>
+        <div id="burgerking">
+            <img src="Burger_King.png" alt="Burger King" height="100px" width="100px">
+            <br>
+            <a target="_blank" href="https://www.bk.com/">برغر كينغ</a>
+        </div>
+        <hr>
+        <div id="chicco">
+            <img src="chicco.png" alt="chicco" height="100px" width="150px">
+            <br>
+            <a target="_blank" href="https://www.chiccousa.com/">فاصوليا</a>
+        </div>
+        <hr>
+        <div id="camay">
+            <img src="Cama.png" alt="Camay" height="100px" width="200px">
+            <br>
+            <a target="_blank" href="https://www.camayeurope.com/">آمي</a>
+        </div>
+        <hr>
+        <div id="cococola">
+            <img src="Coca-Cola.png" alt="Coca Cola" height="100px" width="200px">
+            <br>
+            <a target="_blank" href="https://www.coca-colacompany.com/">كوكا كولا</a>
+        </div>
+        <hr>
+        <div id="crest">
+            <img src="crest.png" alt="crest" height="100px" width="250px">
+            <br>
+            <a target="_blank" href="https://crest.com/en-us">قمة</a>
+        </div>
+        <hr>
+        <div id="hardeez">
+            <img src="hardee.png" alt="hardee's" height="100px" width="150px">
+            <br>
+            <a target="_blank" href="https://www.hardees.com/">هارديز</a>
+        </div>
+        <hr>
+        <div id="hp">
+            <img src="hp.png" alt="hp" height="100px" width="100px">
+            <br>
+            <a target="_blank" href="https://www.hp.com/sa-en/home.html">حصان</a>
+        </div>
+        <hr>
+        <div id="hyundai">
+            <img src="hyundai.png" alt="hyundai" height="100px" width="100px">
+            <br>
+            <a target="_blank" href="https://www.hyundai.com/worldwide/en/">هيونداي</a>
+        </div>
+        <hr>
+        <div id="imb">
+            <img src="imb.png" alt="IMB" height="100px" width="150px">
+            <br>
+            <a target="_blank" href="https://www.ibm.com/us-en">إمب</a>
+        </div>
+        <hr>
+        <div id="Kleenex">
+            <img src="Kleenex.png" alt="Kleenex" height="100px" width="150px">
+            <br>
+            <a target="_blank" href="https://www.kleenex.com/en-us/">كوداك</a>
+        </div>
+        <hr>
+        <div id="kodak">
+            <img src="kodak.png" alt="Kodak" height="100px" width="150px">
+            <br>
+            <a target="_blank" href="https://www.kodak.com/en/">كوداك</a>
+        </div>
+        <hr>
+        <div id="talabat">
+            <img src="talabat.png" alt="talabat" height="100px" width="100px">
+            <br>
+            <a target="_blank" href="https://www.talabat.com/ksa">طلبات SA</a>
+            <br>
+            <a target="_blank" href="https://www.talabat.com/egypt">طلبات EG</a>
+        </div>
+        <hr>
+        <div id="careem">
+            <img src="careem.png" alt="careem" height="100px" width="100px">
+            <br>
+            <a target="_blank" href="https://www.careem.com/">كريم</a>
+        </div>
+        <hr>
+        <div id="lipton">
+            <img src="lipton.png" alt="kotex" height="100px" width="130px">
+            <br>
+            <a target="_blank" href="https://www.lipton.com/">ليبتون</a>
+        </div>
+        <hr>
+        <div id="loreal">
+            <img src="loreal.png" alt="loreal" height="100px" width="150px">
+            <br>
+            <a target="_blank" href="https://www.loreal.com/">لوريال</a>
+        </div>
+        <hr>
+        <div id="adidas">
+            <img src="adidas.png" alt="Adidas" height="110px" width="130px">
+            <br>
+            <a target="_blank" href="https://www.adidas.com/us">شركة اديداس</a>
+        </div>
+        <hr>
+        <div id="mac">
+            <img src="macdonols.png" alt="Macdonalds" height="110px" width="130px">
+            <br>
+            <a target="_blank" href="https://www.mcdonalds.com/us/en-us.html">ماك. أو ماكدونالدز</a>
+        </div>
+        <hr>
+        <div id="nesle">
+            <img src="neste.png" alt="nestle" height="110px" width="130px">
+            <br>
+            <a target="_blank" href="https://www.nestle.com">نستله</a>
+        </div>
+        <hr>
+        <div id="nike">
+            <img src="Nike.png" alt="nike" height="110px" width="200px">
+            <br>
+            <a target="_blank" href="https://www.nike.sa">نايك SA</a>
+            <br>
+            <a target="_blank" href="https://www.nike.eg">نايك EG</a>
+            <br>
+            <a target="_blank" href="https://www.nike.ae/">نايك AE</a>
+        </div>
+        <hr>
+        <div id="old-spice">
+            <img src="old-pice.png" alt="old-spice" height="110px" width="200px">
+            <br>
+            <a target="_blank" href="https://oldspice.com/">توابل قديمة</a>
+        </div>
+        <hr>
+        <div id="pampers">
+            <img src="Pampers.png" alt="Pampers" height="110px" width="200px">
+            <br>
+            <a target="_blank" href="https://www.pampers.com/en-us">بامبرز</a>
+        </div>
+        <hr>
+        <div id="pepsi">
+            <img src="pepsi.png" alt="Pampers" height="100px" width="100px">
+            <br>
+            <a target="_blank" href="https://www.pepsi.com/en-us/">بيبسي</a>
+            <br>
+            <hr class="why">
+            <br>
+            <h1>WHY?</h1>
+            <p>لأن, <br> البيبسي مصنوع من <a target="_blank" href="https://www.pepsico.com">بيبسيكو</a></p>
+            <hr class="why">
+            <h1>Companys like:</h1>
+            <p><a target="_blank" href="https://www.aquafina.com/en-US/">أكوافينا</a>, <a target="_blank" href="https://www.7up.com/en#/recipes">7 فوق</a>, ماريندا</p>
+        </div>
+        <hr>
+        <div id="danone">
+            <img src="danone.png" alt="Pampers" height="100px" width="200px">
+            <br>
+            <a target="_blank" href="https://www.danone.com/">دانون</a>
+            <br>
+            <hr class="why">
+            <h1>لماذا؟</h1>
+            <p>لأن,<br> دانون من فرنسا</p>
+            <hr class="why">
+            <h1>شركات مثل:</h1>
+            <p><a target="_blank" href="https://new.alsafidanone.com/">أل صافي</a></p>
+        </div>
+        <hr>
+        <div id="puma">
+            <img src="puma.png" alt="Puma" height="100px" width="200px">
+            <br>
+            <a target="_blank" href="https://sa.puma.com/">بوما SA</a>
+            <br>
+            <a target="_blank" href="https://eg.puma.com/">بوما EG</a>
+            <br>
+            <a target="_blank" href="https://ae.puma.com/">بوما AE</a>
+        </div>
+        <hr>
+        <div id="raid">
+            <img src="raid.png" alt="Puma" height="100px" width="150px">
+            <br>
+            <a target="_blank" href="https://www.raid.com/">غارة</a>
+        </div>
+        <hr>
+        <div id="sketchers">
+            <img src="scetchers.png" alt="skechers" height="100px" width="100px">
+            <br>
+            <a target="_blank" href="https://www.skechers.com/">سكيتشرز</a>
+        </div>
+        <hr>
+        <div id="starbucks">
+            <img src="starbucks.png" alt="starbucks" height="100px" width="100px">
+            <br>
+            <a target="_blank" href="https://www.starbucks.com/">ستاربكس</a>
+        </div>
+        <hr>
+        <div id="subway">
+            <img src="subway.png" alt="subway" height="100px" width="200px">
+            <br>
+            <a target="_blank" href="https://www.subway.com/">مترو</a>
+        </div>
+        <hr>
+        <div id="tide">
+            <img src="tide.png" alt="starbucks" height="100px" width="100px">
+            <br>
+            <a target="_blank" href="https://www.tide.com/">المد والجزر</a>
+        </div>
+        <hr>
+        <div id="vanish">
+            <img src="vanish.png" alt="starbucks" height="100px" width="100px">
+            <br>
+            <a target="_blank" href="https://www.vanisharabia.com/">تلاشى</a>
+        </div>
+        <hr>
+        <div id="zest">
+            <img src="zest.png" alt="starbucks" height="100px" width="100px">
+            <br>
+            <a target="_blank" href="https://www.zest.com/">شهية</a>
+        </div>
+    </section>
+    <br>
+    <section id="palastine">
+        <h1 id="i2">الشركات التي تساعد فلسطين هي...</h1>
+        <hr>
+        <div id="awtad">
+            <img src="awted.png" alt="autad" height="100px" width="100px">
+            <br>
+            <a target="_blank" href="https://awtad.ngo/">autad</a>
+        </div>
+        <hr>
+        <div id="mersal">
+            <img src="mersal.png" alt="مرسال" height="100px" width="100px">
+            <br>
+            <a target="_blank" href="https://www.mersal-ngo.org/">مرسال</a>
+        </div>
+    </section>
+    <script>
+        function pri(){
+            print()
+        }
+    </script>
+</body>
+</html>
